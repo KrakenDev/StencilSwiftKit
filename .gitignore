@@ -1,6 +1,9 @@
 # Xcode
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+# SPM Generates our Xcode Project. We can ignore it now in favor of swift package generate-xcodeproj
+*.xcodeproj
+*.xcworkspace
 
 ## Build generated
 build/
