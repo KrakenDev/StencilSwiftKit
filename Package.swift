@@ -7,7 +7,7 @@ let package = Package(
       .library(name: "StencilSwiftKit", targets: ["StencilSwiftKit"])
   ],
   dependencies: [
-      .package(url: "https://github.com/stencilproject/Stencil.git", .branch("master"))
+      .package(url: "https://github.com/KrakenDev/Stencil.git", .branch("master"))
   ],
   targets: [
     .target(
